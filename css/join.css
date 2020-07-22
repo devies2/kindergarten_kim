@@ -55,13 +55,16 @@
 
 .join_form .info_content input[type='text'],
 .join_form .info_content input[type='password'],
-.join_form .info_content select
- {
+.join_form .info_content select {
      height: 45px; border: 1px solid #ccc; padding: 0 1em;
      vertical-align: top;
+    }
+
+.join_form .w320 {width: 320px;}
+.join_form .w160 {width: 160px;}
+
+.join_form .info_content span {line-height: 45px;}
+.join_form .w70p {
+    width: 70%;
 }
-
- .join_form .w320 {width: 320px;}
- .join_form .w160 {width: 160px;}
-
- .join_form .info_content span {line-height: 45px;}
+.join_form .mtb3 {margin: 3px 0;}
