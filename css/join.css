@@ -3,7 +3,6 @@
 @import url(./common.css);
 
 /* ::placeholder {color: black;} */
-select {color: #888;}
 
 #join_page {padding: 217px 0 100px;}
 
@@ -97,3 +96,5 @@ select {color: #888;}
 .join_form .btn input[type="submit"] {
     background-color: #f00;
 }
+
+select {color: #757575; height: 45px; vertical-align: middle;}
