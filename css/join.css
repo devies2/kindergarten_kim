@@ -2,7 +2,8 @@
 @import url(./reset.css);
 @import url(./common.css);
 
-::placeholder {color: skyblue;}
+/* ::placeholder {color: black;} */
+select {color: #888;}
 
 #join_page {padding: 217px 0 100px;}
 
@@ -63,7 +64,7 @@
 
 .join_form .w320 {width: 320px;}
 .join_form .w160 {width: 160px;}
-
+.join_form .w100 {width: 100px;} 
 .join_form .w70p {width: 70%;}
 .join_form .mtb5 {margin-bottom: 5px;}
 
@@ -72,7 +73,6 @@
     height: 45px; width: 80px; border: 1px solid #ccc;
     border-radius: 6px; cursor: pointer;
 }
-/* .join_form .info_content .addr_lbl {margin-top: 0;} */
 .join_form .info_content button:hover {
     background-color: #ddd;
 }
@@ -86,7 +86,6 @@
     padding: 10px;
     line-height: 1.5;
     resize: none;
-    /* 반영이 안되는것 같은 부분 */
 }
 
 .join_form .btn {margin-top: 20px; text-align: center;}
@@ -94,7 +93,6 @@
     width: 80px; height: 30px; background-color: #000; color: #fff;
     border: none;  border-radius: 5px; font-size: 18px;
     margin: 0 10px;
-    /* 반영이 안되는것 같은 부분 */
 }
 .join_form .btn input[type="submit"] {
     background-color: #f00;

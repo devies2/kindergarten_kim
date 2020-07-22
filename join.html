@@ -155,12 +155,29 @@
                             </div>
                         </li>
                         <li>
-                            <label for="birthday" class="tit_lbl">생년월일</label>
-                            <div class="info_content">
-                                <!-- 날짜라서 type을 date로 바꿀수도 있으나 -->
-                                <!-- IE를 지원하지 않기에, 추후 JS로 풀기로 함 -->
-                                <input type="text" id="birthday" class="w160" placeholder="2000-01-01">
-                            </div>
+                            <!-- 날짜라서 type을 date로 바꿀수도 있으나 -->
+                            <!-- IE를 지원하지 않기에, 추후 JS로 풀기로 함 -->
+                            
+                            <label for="" class="tit_lbl">생년월일</label>
+                                <div class="info_content">
+                                    <input type="text" id="year" class="w100" placeholder="년">
+                                    <select name="month" id="month">
+                                        <option value="nochoice">월</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    <input type="text" id="date" class="w100" placeholder="일">
+                                </div>
                         </li>
                         <li>
                             <label for="" class="tit_lbl">성별</label>
