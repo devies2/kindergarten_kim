@@ -2,6 +2,8 @@
 @import url(./reset.css);
 @import url(./common.css);
 
+::placeholder {color: skyblue;}
+
 #join_page {padding: 217px 0 100px;}
 
 #join_page h2 {
@@ -50,7 +52,7 @@
 
 .join_form .info_list li {
     padding: 8px 0; 
-    background: #eee;
+    /* background: #eee; */
 }
 
 .join_form .info_content input[type='text'],
@@ -58,13 +60,41 @@
 .join_form .info_content select {
      height: 45px; border: 1px solid #ccc; padding: 0 1em;
      vertical-align: top;
-    }
+}
 
 .join_form .w320 {width: 320px;}
 .join_form .w160 {width: 160px;}
 
+.join_form .w70p {width: 70%;}
+.join_form .mtb5 {margin-bottom: 5px;}
+
 .join_form .info_content span {line-height: 45px;}
-.join_form .w70p {
-    width: 70%;
+.join_form .info_content button {
+    height: 45px; width: 80px; border: 1px solid #ccc;
+    border-radius: 6px; cursor: pointer;
 }
-.join_form .mtb3 {margin: 3px 0;}
+/* .join_form .info_content .addr_lbl {margin-top: 0;} */
+.join_form .info_content button:hover {
+    background-color: #ddd;
+}
+
+.join_form .gender_area label,
+.join_form .hobby_area label {line-height: 40px; padding-right: 20px;}
+
+.join_form .info_content textarea {
+    height: 245px; font-size: 15px; letter-spacing: -1px;
+    color: #444;
+    padding: 10px;
+    line-height: 1.5;
+    resize: none;
+}
+
+.join_form .btn {margin-top: 20px; text-align: center;}
+.join_form .btn input {
+    width: 80px; height: 30px; background-color: #000; color: #fff;
+    border: none;  border-radius: 5px; font-size: 18px;
+    margin: 0 10px;
+}
+.join_form .btn input[type="submit"] {
+    background-color: #f00;
+}
