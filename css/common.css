@@ -63,11 +63,43 @@
     font-size: 11px
 }
 
+/* 검색상자 */
+.topmenu .search_box {
+    position: absolute;
+    top: 0;
+    left: 13%;
+}
+.topmenu .search_box form fieldset {
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+}
+
+.topmenu .search_box form input,
+.topmenu .search_box form button,
+.topmenu .search_box form i {
+    border: none;
+    background: none;
+    /* vertical-align: top; */
+}
+
+.topmenu .search_box form input,
+.topmenu .search_box form i {
+    padding: 3.5px 10px;
+    color: rgb(196, 106, 121);
+}
+
+.topmenu .search_box form input {
+    width: 130px;
+}
+.topmenu .search_box form input::placeholder {
+    color: rgb(196, 106, 121);
+}
+
 .topmenu .login {
     position: absolute;
     top: 0;
     right: 0;
-    color: #000;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .topmenu .login a {
