@@ -96,8 +96,4 @@ select {color: #757575; height: 45px; vertical-align: middle;}
     border: none;  border-radius: 5px; font-size: 18px;
     margin: 0 10px;
 }
-.join_form .btn input[type="submit"] {
-    background-color: #f00;
-}
-
 
