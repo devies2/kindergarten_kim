@@ -31,7 +31,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 99999;
     background: #fff;
     box-shadow: 0 2px 2px #eee;
 }
