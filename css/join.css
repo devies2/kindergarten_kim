@@ -3,6 +3,7 @@
 @import url(./common.css);
 
 /* ::placeholder {color: black;} */
+select {color: #757575; height: 45px; vertical-align: middle;}
 
 #join_page {padding: 217px 0 100px;}
 
@@ -76,6 +77,8 @@
     background-color: #ddd;
 }
 
+#year, #date {padding-top: 2.8px;}
+
 .join_form .gender_area label,
 .join_form .hobby_area label {line-height: 40px; padding-right: 20px;}
 
@@ -97,4 +100,4 @@
     background-color: #f00;
 }
 
-select {color: #757575; height: 45px; vertical-align: middle;}
+
