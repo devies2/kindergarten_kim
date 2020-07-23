@@ -40,9 +40,20 @@
 #login_page .login_form .check {
     margin: 20px 370px 20px;
     /* text-align: left; */
-    padding-left: 70px;
+    /* padding-left: 30px; */
 }
 
 #login_page .login_form .check label {
-    padding-right: 50px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+#login_page .login_form .check a {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+
+#login_page .login_form .check a:hover {
+    color: #000;
 }
