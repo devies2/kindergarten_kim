@@ -67,7 +67,7 @@
 .topmenu .search_box {
     position: absolute;
     top: 0;
-    left: 13%;
+    right: 68%;
 }
 .topmenu .search_box form fieldset {
     /* border: 1px solid #fff; */
@@ -116,8 +116,30 @@
 .logoNav h1 {
     color: #ffae3d;
     font-size: 26.25px;
-    line-height: 76px;
+    /* line-height: 76px; */
+    padding: 24.875px 0 24px 0;
     font-weight: bold;
+    line-height: 15.75px;
+}
+
+.logoNav .open_nav {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 21px;
+    color: #ff7766;
+}
+
+.logoNav .close_nav {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    transform: translateY(-50%);
+    font-size: 23px;
+    color: #ff7766;
 }
 
 .logoNav .nav {
@@ -130,10 +152,10 @@
     display: inline-block;
     /* float: left; */
     font-size: 15.75px;
-    line-height: 76px;
-    padding-left: 30px;
-    font-weight: bold;
+    /* line-height: 76px; */
     position: relative;
+    /* padding-left: 30px; */
+    font-weight: bold;
 }
 
 .logoNav .nav .depth1>li:hover {
@@ -143,6 +165,12 @@
 
 .logoNav .nav .depth1>li:first-child {
     color: #ffd23c
+}
+
+.logoNav .nav .depth1>li>a {
+    padding: 24.875px 0 24px 30px;
+    display: inline-block;
+
 }
 
 .logoNav .nav .depth1>li>a:after {
@@ -253,3 +281,4 @@
     font-size: 10.5px;
     color: #333;
 }
+
