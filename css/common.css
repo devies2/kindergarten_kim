@@ -72,6 +72,7 @@
 .topmenu .search_box form fieldset {
     /* border: 1px solid #fff; */
     background-color: #fff;
+    border-radius: 3px;
 }
 
 .topmenu .search_box form input,
@@ -79,6 +80,7 @@
 .topmenu .search_box form i {
     border: none;
     background: none;
+    vertical-align: top;
     /* vertical-align: top; */
 }
 
