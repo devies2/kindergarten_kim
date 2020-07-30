@@ -161,13 +161,15 @@
                                 <input type="text" class="w160" id="email_lbl">
                                 <span>@</span>
                                 <input type="text" id="domain" class="w160" disabled>
-                                <select name="" id="email_choice" class="w160">
-                                    <!-- 첫번째 옵션은 제목 -->
-                                    <option value="nochoice">이메일 선택</option>
-                                    <option value="daum.net">다음</option>
-                                    <option value="naver.com">네이버</option>
-                                    <option value="self">직접입력</option>
-                                </select>
+                                <label class="email_box" for="email_choice">
+                                    <select name="" id="email_choice" class="w160">
+                                        <!-- 첫번째 옵션은 제목 -->
+                                        <option value="nochoice">이메일 선택</option>
+                                        <option value="daum.net">다음</option>
+                                        <option value="naver.com">네이버</option>
+                                        <option value="self">직접입력</option>
+                                    </select>
+                                </label>
                             </div>
                         </li>
                         <li>
@@ -219,13 +221,13 @@
                             <label for="" class="tit_lbl">취미</label>
                             <div class="info_content hobby_area">
                                 <input type="checkbox" name="" id="all">
-                                <label for="">전체선택</label>
+                                <label for="all">전체선택</label>
                                 <input type="checkbox" name="hobby1" id="hobby1" value="게임">
-                                <label for="">게임</label>
+                                <label for="hobby1">게임</label>
                                 <input type="checkbox" name="hobby2" id="hobby2" value="등산">
-                                <label for="">등산</label>
+                                <label for="hobby2">등산</label>
                                 <input type="checkbox" name="hobby3" id="hobby3" value="수영">
-                                <label for="">수영</label>
+                                <label for="hobby3">수영</label>
 
                             </div>
                         </li>
